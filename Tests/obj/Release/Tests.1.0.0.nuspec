@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Tests</id>
+    <version>1.0.0</version>
+    <authors>Tests</authors>
+    <owners>Tests</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Pages" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NUnit" version="3.10.1" exclude="Build,Analyzers" />
+        <dependency id="NUnit3TestAdapter" version="3.10.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.Chrome.WebDriver" version="2.40.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="3.13.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp2.1/NUnit3.TestAdapter.dll" buildAction="Content" />
+      <files include="any/netcoreapp2.1/NUnit3.TestAdapter.pdb" buildAction="Content" />
+      <files include="any/netcoreapp2.1/nunit.engine.netstandard.dll" buildAction="Content" />
+      <files include="any/netcoreapp2.1/Mono.Cecil.dll" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\kamakimu\source\repos\KazAutomation\Tests\bin\Release\netcoreapp2.1\Tests.dll" target="lib\netcoreapp2.1\Tests.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" target="content\NUnit3.TestAdapter.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" target="contentFiles\any\netcoreapp2.1\NUnit3.TestAdapter.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" target="content\NUnit3.TestAdapter.pdb" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" target="contentFiles\any\netcoreapp2.1\NUnit3.TestAdapter.pdb" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" target="content\nunit.engine.netstandard.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" target="contentFiles\any\netcoreapp2.1\nunit.engine.netstandard.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\Mono.Cecil.dll" target="content\Mono.Cecil.dll" />
+    <file src="C:\Users\kamakimu\.nuget\packages\nunit3testadapter\3.10.0\build\netcoreapp1.0\Mono.Cecil.dll" target="contentFiles\any\netcoreapp2.1\Mono.Cecil.dll" />
+  </files>
+</package>

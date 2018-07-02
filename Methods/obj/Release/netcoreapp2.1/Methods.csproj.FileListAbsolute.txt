@@ -1,0 +1,13 @@
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\Methods.deps.json
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\Methods.dll
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\bin\Release\netcoreapp2.1\Methods.pdb
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.csprojAssemblyReference.cache
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.csproj.CoreCompileInputs.cache
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.AssemblyInfoInputs.cache
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.AssemblyInfo.cs
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.dll
+C:\Users\kamakimu\source\repos\KazAutomation\Methods\obj\Release\netcoreapp2.1\Methods.pdb
