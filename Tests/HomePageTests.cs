@@ -54,19 +54,20 @@ namespace Tests
 
           public void InitializePageMethods()
           {
-                //_iPopUp = new IPopUp();
-                //_iBasePageObjects = new BaseSetUp(_iBasePageObjects);
-                _iBasePageObjects.Driver = _driver;
-                _iBasePageObjects.PageTitle = "Lowe's Canada: Home Improvement, Appliances, Tools, Bathroom, Kitchen";
-                _iBasePageObjects.PageUrl = "https://www.lowes.ca";
-                _iBasePageObjects.Wait = new WebDriverWait(_driver, TimeSpan.FromMinutes(2));
-                Homepage = new HomePage(_iPopUp, _iBasePageObjects);
-            }
+            //_iPopUp = new 
+            //_iBasePageObjects = new 
+            _iBasePageObjects.Driver = _driver;
+            _iBasePageObjects.PageTitle = "Lowe's Canada: Home Improvement, Appliances, Tools, Bathroom, Kitchen";
+            _iBasePageObjects.PageUrl = "https://www.lowes.ca";
+            _iBasePageObjects.Wait = new WebDriverWait(_driver, TimeSpan.FromMinutes(2));
+            Homepage = new HomePage(_iPopUp, _iBasePageObjects);
+           }
 
             public IWebDriver InitializeDriver()
             {
                 var options = new ChromeOptions();
-                //options.AddArgument("--headless");
+                options.AddArgument("--no-sandbox");
+                options.AddArgument("--headless");
                 _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), options, TimeSpan.FromSeconds(120));
                 _driver.Manage().Window.Maximize();
                 _driver.Manage().Cookies.DeleteAllCookies();

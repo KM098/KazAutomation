@@ -34,3 +34,5 @@ C:\src\KazAutomation\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
 C:\src\KazAutomation\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CopyComplete
 C:\src\KazAutomation\Tests\obj\Debug\netcoreapp2.1\Tests.dll
 C:\src\KazAutomation\Tests\obj\Debug\netcoreapp2.1\Tests.pdb
+C:\src\KazAutomation\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\src\KazAutomation\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json

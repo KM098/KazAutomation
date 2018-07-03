@@ -30,3 +30,5 @@ C:\src\KazAutomation\Pages\obj\Debug\netcoreapp2.1\Pages.AssemblyInfo.cs
 C:\src\KazAutomation\Pages\obj\Debug\netcoreapp2.1\Pages.csproj.CopyComplete
 C:\src\KazAutomation\Pages\obj\Debug\netcoreapp2.1\Pages.dll
 C:\src\KazAutomation\Pages\obj\Debug\netcoreapp2.1\Pages.pdb
+C:\src\KazAutomation\Pages\bin\Debug\netcoreapp2.1\Pages.runtimeconfig.json
+C:\src\KazAutomation\Pages\bin\Debug\netcoreapp2.1\Pages.runtimeconfig.dev.json

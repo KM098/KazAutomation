@@ -18,9 +18,10 @@ C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
 C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Methods.deps.json
 C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Methods.dll
 C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Methods.pdb
-C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.csprojAssemblyReference.cache
 C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.csproj.CoreCompileInputs.cache
 C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.AssemblyInfoInputs.cache
 C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.AssemblyInfo.cs
 C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.dll
 C:\src\KazAutomation\Methods\obj\Debug\netcoreapp2.1\Methods.pdb
+C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Methods.runtimeconfig.json
+C:\src\KazAutomation\Methods\bin\Debug\netcoreapp2.1\Methods.runtimeconfig.dev.json
