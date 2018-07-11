@@ -33,7 +33,7 @@ namespace Tests
         [Test]
         public void OpneHomePage()
         {
-            Homepage.GoTo("www.lowes.ca");
+            Homepage.GoTo("https://www.lowes.ca");
             Assert.IsTrue(Homepage.IsAt(), "Homepage doesn't open");
             Assert.IsTrue(Homepage.IsEmailPopUpDisplayed(), "Eamil pop up doesn't open");
         }
@@ -66,15 +66,19 @@ namespace Tests
         public IWebDriver InitializeDriver()
         {
             var options = new ChromeOptions();
-            options.AddArgument("--no-sandbox");
             options.AddArgument("--headless");
-            
-            using (_driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
-            {                
-                _driver.Manage().Window.Maximize();
-                _driver.Manage().Cookies.DeleteAllCookies();
-            }
-            
+
+            // These lines gets no connection error
+            //using (_driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
+            //{                
+            //    _driver.Manage().Window.Maximize();
+            //    _driver.Manage().Cookies.DeleteAllCookies();
+            //}
+
+            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), options, TimeSpan.FromSeconds(120));
+            _driver.Manage().Window.Maximize();
+            _driver.Manage().Cookies.DeleteAllCookies();
+
             return _driver;
         }
     }

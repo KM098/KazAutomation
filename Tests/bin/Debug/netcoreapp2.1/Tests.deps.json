@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "46afb0d12eb0814a4a681e0a93f3756a374728c7"
+    "signature": "41c475148f92fcb9ac431dce351aaf50b1b25dda"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,7 @@
           "Pages": "1.0.0",
           "Selenium.Chrome.WebDriver": "2.40.0",
           "Selenium.WebDriver": "3.13.1",
-          "Selenium.WebDriver.ChromeDriver": "2.36.0"
+          "Selenium.WebDriver.ChromeDriver": "2.40.0"
         },
         "runtime": {
           "Tests.dll": {}
@@ -435,7 +435,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/2.36.0": {},
+      "Selenium.WebDriver.ChromeDriver/2.40.0": {},
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1024,7 +1024,8 @@
           "NUnit": "3.10.1",
           "NUnit3TestAdapter": "3.10.0",
           "Selenium.Chrome.WebDriver": "2.40.0",
-          "Selenium.WebDriver": "3.13.1"
+          "Selenium.WebDriver": "3.13.1",
+          "Selenium.WebDriver.ChromeDriver": "2.40.0"
         },
         "runtime": {
           "Methods.dll": {}
@@ -1037,7 +1038,8 @@
           "NUnit": "3.10.1",
           "NUnit3TestAdapter": "3.10.0",
           "Selenium.Chrome.WebDriver": "2.40.0",
-          "Selenium.WebDriver": "3.13.1"
+          "Selenium.WebDriver": "3.13.1",
+          "Selenium.WebDriver.ChromeDriver": "2.40.0"
         },
         "runtime": {
           "Pages.dll": {}
@@ -1163,12 +1165,12 @@
       "path": "selenium.webdriver/3.13.1",
       "hashPath": "selenium.webdriver.3.13.1.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/2.36.0": {
+    "Selenium.WebDriver.ChromeDriver/2.40.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S5ZDWWyyleY0GF0GSiSgKSR9MzwXJnlGyaiRsbJHjysMDwoWD+kTnmUDDahFoxhjV/vjI1+t47t5kqvojtvtDw==",
-      "path": "selenium.webdriver.chromedriver/2.36.0",
-      "hashPath": "selenium.webdriver.chromedriver.2.36.0.nupkg.sha512"
+      "sha512": "sha512-pWXnd17IY7fhXIYzsMfu1XSHC1ZrqrTsZ6kCPDz21cVlGgDUP+gSMTYk+vKOn3193DIsd9nj+7baXHvsYH0jdw==",
+      "path": "selenium.webdriver.chromedriver/2.40.0",
+      "hashPath": "selenium.webdriver.chromedriver.2.40.0.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
