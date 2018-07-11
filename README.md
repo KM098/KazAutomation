@@ -1,1 +1,2 @@
 # KazAutomation
+.Net Core
